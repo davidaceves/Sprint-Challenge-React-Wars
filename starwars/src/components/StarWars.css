@@ -1,7 +1,21 @@
 .Character {
-    background: whitesmoke;
+    background: tan;
     border: 1px solid black;
     border-radius: 5px;
     margin: 5%;
     padding: 2%;
+}
+
+.list-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+span {
+    font-weight: bold;
 }
