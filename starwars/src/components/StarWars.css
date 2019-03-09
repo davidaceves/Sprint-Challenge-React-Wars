@@ -1,6 +1,6 @@
 .Character {
     background: tan;
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 5px;
     margin: 5%;
     padding: 2%;
@@ -13,7 +13,13 @@
 }
 
 li {
-    list-style-type: none;
+    color: whitesmoke;
+    background: tomato;
+    list-style-type: upper-roman;
+    margin-bottom: 10px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+
 }
 
 span {

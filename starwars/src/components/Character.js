@@ -8,9 +8,11 @@ function Character(props) {
             <p><span>Birth:</span> {props.char.birth_year}</p>
             <p><span>Species:</span> {props.char.species}</p>
             <p><span>Height:</span> {props.char.height}</p>
+            <p><span>Mass:</span> {props.char.mass}</p>
             <p><span>Gender:</span> {props.char.gender}</p>
-            <p><span>Mass:</span> {props.char.eye_color}</p>
+            <p><span>Eye Color:</span> {props.char.eye_color}</p>
             <p><span>Hair Color:</span> {props.char.hair_color}</p>
+            <p><span>Skin Color:</span> {props.char.skin_color}</p>
             <p><span>Homeworld:</span> {props.char.homeworld}</p>
 
             <h3>Starships:</h3>
@@ -39,6 +41,9 @@ function Character(props) {
 
             <h3>Edited:</h3>
             <p>{props.char.edited}</p>
+
+            <h3>URL:</h3>
+            <p>{props.char.url}</p>
             
 
 
